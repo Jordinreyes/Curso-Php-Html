@@ -1,0 +1,26 @@
+LAS SESIONES EN APLIACACION WEB DESARROLLADAS CON PHP NOS SIRVEN PARA ALMACENAR INFORMACION DURANTE TODA LA VISITA DE UN USUARIO A UN SITIO WEB. DICHA INFORMACION SE ALMACENA EN EL SERVIDOR
+
+EKEMPLO DE USO: INICIO DE SESION(LOGIN), BUSCADORES(QUE RECUERDE TERMINO DE BUSQUEDA)
+
+    ASI SE CREA UNA SESION Y TE DA UN NOMBRE POR DEFECTO
+    session_start()
+
+    CAMBIAR EL NOMBRE DE LA SESION 
+    session_name("Login");
+    session_start();
+
+    MODIFICAR EL ID(VALUE) DE LA SESION
+     session_name("Login");
+     session_id("php");
+     session_start();
+    
+    PERO MEJOR QUE QUEDE EL ID(VALUE ALEATORIAMENTE)
+    session_name("contador");
+    session_start();
+
+    INCREMENTAR EL CONTADOR CADA VEZ QUE LA PAGINA LA CARGUEMOS
+     if(isset($_SESSION["contador"])){
+         $_SESSION["contador"] ++;
+     }else{
+         $_SESSION["contador"] = 1;
+     }

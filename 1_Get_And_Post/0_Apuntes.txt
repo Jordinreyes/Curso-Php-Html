@@ -1,0 +1,7 @@
+LA DIFERENCIA ENTRE GET Y POST == ESTA EN LA URL
+
+GET: LOS DATOS SE VEN EN LA URL  Y SON MAS FACILES DE MANIPURLO
+http://localhost:3000/11_Php_Html/1_Metodo_Get_Post/2_resultado_get.php?nombre=Jordin+Reyes&asignatura=ciencia&frutas=manzana
+
+POST: LOS DATOS VAN OCULTO Y ES LA MAS FIABLE PARA USARLO, PORQUE NO SALEN LOS DATOS
+http://localhost:3000/11_Php_Html/1_Metodo_Get_Post/1_resultado_post.php
